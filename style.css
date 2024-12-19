@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;;
+}
+
+body {
+    background-color: rgba(15, 122, 172, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+header{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 2.6em;
+    text-align: center;
+}
+.capa{
+    padding:20px;
+    margin: auto;      
+}
+img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+ 
+
+}
+nav{
+    list-style: none;
+    margin: 20px;
+    padding: 20px 0;
+}
+nav a{
+    color: white;
+    padding: 10px;    
+    margin: 10px;
+    border: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+
+}
+nav a:hover {
+    background-color: rgba(52, 158, 245, 0.637);
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.39);
+    
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 20px;
+    
+}
+#Sobre > h1{
+    background-color: #a5cadd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.377);     
+}
+
+#Sobre > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid rgba(0, 0, 0, 0.404);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;   
+    margin: 10px;  
+}
+
+#Objetivos > h2{
+    background-color: #a5cadd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.342);
+}
+
+#Objetivos > ul > li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-position: inside;
+    text-indent: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.39);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;   
+}
+
+#Colaborador > h1 {
+    background-color: #a5cadd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.342);
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+}
+
+.imagem > img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.imagem >p{
+    flex: 1;
+    text-align: center;
+    background-color: #a5cadd;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#nome {
+    text-align:center;
+    font-weight: bold;
+    background-color: #a5cadd;
+}
